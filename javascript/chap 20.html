@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function areYouLucky() {
+            var foo = Math.floor(Math.random() * 100);
+            if (foo > 50) {
+                alert("You are lucky");
+            }
+            else {
+                alert("you are not luckhy");
+            }
+        }
+        areYouLucky();
+
+        var isLucky = function () {
+            var foo = Math.round(Math.random() * 100);
+        
+        if (foo > 50) {
+            return "You are lucky!";
+        }
+        else {
+            return "You are not Lucky";
+        }
+        }
+        var me = isLucky();
+        alert(me);
+    </script>
+</body>
+</html>

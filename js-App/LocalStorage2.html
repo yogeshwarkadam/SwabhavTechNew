@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <script>
+        var s1 = { name:"sachin",cgpa:7.5}
+        console.log(s1.name);
+        console.log(s1["name"]);
+        console.log(s1["cgpa"]);
+
+        localStorage["aurionpro.student"] = s1;
+        console.log(localStorage["aurionpro.student"]);
+        localStorage["aurionpro.student"] = JSON.stringify(s1);
+        console.log(localStorage["aurionpro.student"]);
+
+        var s2 = JSON.parse(localStorage["aurionpro.student"]);
+        s2.location = "Mumbai";
+        console.log(s2);
+
+        var students = [{name:"yogeshwar",cgpa:8.0,location:"ahmednagar"},
+                       {name:"shivam",cgpa:7.8,location:"mumbai"},
+                       {name:"akshay",cgpa:6.4,location:"Thane"},
+                       {name:"siddhesh",cgpa:9.8,location:"mumbai"},
+                       {name:"sagar",cgpa:6.8,location:"Pimpri"},]
+
+                   
+
+                      localStorage["student.info"] = JSON.stringify(students);
+                    console.log(localStorage["student.info"]);
+            console.log("student with city in mumbai:");
+            students.forEach(element => {
+                if (element.location == "mumbai") {
+                    console.log("name:"+element.name);
+                }
+            });
+
+            console.log("student with CGPA greater than 7:");
+            students.forEach(element => {
+                if (element.cgpa > 7) {
+                console.log("name: "+element.name); 
+                console.log("cgpa: "+element.cgpa)                   
+                }
+            });
+
+            console.log("students who having long name:");
+        students.forEach(element => {
+                if (element.name.length > 7) {
+                 console.log("name: "+element.name);   
+                }
+            });
+
+
+            document.write("<table border='1'><tr><th>Name</th><th>CGPA</th><th>Location</th></tr>");
+                        for (let i = 0; i < 60; i++) {
+                            document.write("<tr><td>"+students[i].name+"</td><td>"+students[i].cgpa+"</td><td>"+students[i].location+"</td></tr>");
+                            
+                        }
+                        document.write("</table>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TictactoeCore", "TictactoeCore\TictactoeCore.csproj", "{24ED177A-0EFB-4A08-82BB-B480B91ECBD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TictactoeCore.test", "TictactoeCore.test\TictactoeCore.test.csproj", "{D4C708CE-4255-41C1-83AB-4C642E7A4909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24ED177A-0EFB-4A08-82BB-B480B91ECBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24ED177A-0EFB-4A08-82BB-B480B91ECBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24ED177A-0EFB-4A08-82BB-B480B91ECBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24ED177A-0EFB-4A08-82BB-B480B91ECBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C708CE-4255-41C1-83AB-4C642E7A4909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C708CE-4255-41C1-83AB-4C642E7A4909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C708CE-4255-41C1-83AB-4C642E7A4909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C708CE-4255-41C1-83AB-4C642E7A4909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A99F408-CFB7-473F-8D6A-84C7D088586F}
+	EndGlobalSection
+EndGlobal

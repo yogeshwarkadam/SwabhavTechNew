@@ -1,0 +1,7 @@
+D:\SwabhavTech\OOAD\DesignPattern\TictactoSolution\TictactoeCore\bin\Debug\TictactoeCore.exe.config
+D:\SwabhavTech\OOAD\DesignPattern\TictactoSolution\TictactoeCore\bin\Debug\TictactoeCore.exe
+D:\SwabhavTech\OOAD\DesignPattern\TictactoSolution\TictactoeCore\bin\Debug\TictactoeCore.pdb
+D:\SwabhavTech\OOAD\DesignPattern\TictactoSolution\TictactoeCore\obj\Debug\TictactoeCore.csproj.AssemblyReference.cache
+D:\SwabhavTech\OOAD\DesignPattern\TictactoSolution\TictactoeCore\obj\Debug\TictactoeCore.csproj.CoreCompileInputs.cache
+D:\SwabhavTech\OOAD\DesignPattern\TictactoSolution\TictactoeCore\obj\Debug\TictactoeCore.exe
+D:\SwabhavTech\OOAD\DesignPattern\TictactoSolution\TictactoeCore\obj\Debug\TictactoeCore.pdb

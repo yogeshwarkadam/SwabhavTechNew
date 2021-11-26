@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodLib", "FactoryMethodLib\FactoryMethodLib.csproj", "{FAB615C5-CDA6-4121-BA38-0C1E58C40277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodClientApp", "FactoryMethodClientApp\FactoryMethodClientApp.csproj", "{306A07E5-6F8C-4CE5-9989-321CDB0C05C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB615C5-CDA6-4121-BA38-0C1E58C40277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB615C5-CDA6-4121-BA38-0C1E58C40277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB615C5-CDA6-4121-BA38-0C1E58C40277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB615C5-CDA6-4121-BA38-0C1E58C40277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306A07E5-6F8C-4CE5-9989-321CDB0C05C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306A07E5-6F8C-4CE5-9989-321CDB0C05C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306A07E5-6F8C-4CE5-9989-321CDB0C05C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306A07E5-6F8C-4CE5-9989-321CDB0C05C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {834F7AEF-5083-4AB0-940A-5B3E11BF6575}
+	EndGlobalSection
+EndGlobal

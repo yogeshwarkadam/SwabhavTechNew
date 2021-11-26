@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var gloceries = ["milk","eggs","frosted flakes","salami","juice"];
+        for (let index = 0; index < gloceries.length; index++) {
+           
+            document.writeln(gloceries[index]);
+          
+        }
+        document.writeln("<br>");
+        gloceries.push("cookies");
+        document.writeln(gloceries.toString()+"<br>");
+        gloceries.unshift("banana");
+        document.writeln(gloceries.toString()+ "<br>");
+        gloceries.pop();
+        document.writeln(gloceries.toString()+ "<br>");
+    </script>
+</body>
+</html>

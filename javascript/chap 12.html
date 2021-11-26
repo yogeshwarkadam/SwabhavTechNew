@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //declaration of string
+        var text = "text in double quotes";
+        var moreText = 'text in single quote';
+
+        document.write(text + "<br>");
+        document.write(moreText + "<br>");
+
+        //accessing individual charachter
+        var vowels = "aeiou";
+        document.write(vowels[3] + "<br>");
+        
+        for (var index = 0; index < vowels.length; index++) {
+            document.write(vowels[index]);
+        }
+        "<br>"
+
+        //concanating
+        var foo = "I really";
+        var blah = "why anybody would";
+        var blarg = "do this";
+        var result = foo.concat("dont know " ," ",blah, " ", blarg);
+        document.write(result + "<br>");
+        
+        //Slice operation
+        var theBigString = "3 idiots is an awesome movie";
+        document.write(theBigString.slice(5,13) + "<br>");
+        document.write(theBigString.slice(-12, -7) +"<br>");
+
+        var days = "monday,tuesday, wednesday, thirsday, friday, saturday";
+        var splitWords = days.split(",");
+        document.writeln(splitWords[0] + "<br>");
+
+        var question = "I wonder that the pig did to make this bird so angry";
+        document.write(question.indexOf("pig") +"<br>");
+    </script>
+</body>
+</html>

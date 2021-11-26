@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num = [10,20,30,40,50]
+        num.forEach(display);
+        
+        function display(num){
+                console.log(num);
+        }
+        num.filter(isNumberIsGreaterThan_25)
+        .forEach(display);
+        function isNumberIsGreaterThan_25(num){
+          return  num > 25;
+        }
+        var num = ["10","20","30","40","50","60","70"]
+        num.map(convertToNumber)
+        .filter(GreaterThan_50)
+        .forEach(display);
+        function convertToNumber(strNo){
+            return parseInt(strNo);
+        }
+        function GreaterThan_50(no){
+            console.log("no greater than 50");
+            return no > 50;
+        }
+
+    </script>
+</body>
+</html>
